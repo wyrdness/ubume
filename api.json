@@ -1,0 +1,339 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/ubume",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "ubume",
+    "name": "Ubume",
+    "aliases": [
+      {
+        "name": "産女",
+        "language": "Japanese (Kanji)",
+        "meaning": "birthing woman"
+      },
+      {
+        "name": "Uba",
+        "language": "Japanese",
+        "meaning": "wet nurse"
+      },
+      {
+        "name": "Ubume-dori",
+        "language": "Japanese",
+        "meaning": "ubume bird (different creature)"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Ghost",
+    "tags": [
+      "ghost",
+      "yokai",
+      "japanese",
+      "maternal",
+      "spirit",
+      "tragic",
+      "female",
+      "childbirth",
+      "water"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Ghost of a woman who died in childbirth or while pregnant. Appears carrying a baby or appearing pregnant, with disheveled appearance and bloodstained clothes. Encountered near rivers and crossroads, asking passersby to hold her baby or buying candy for her child.",
+      "full": "Ubume is a tragic yokai - the ghost of a woman who died during childbirth or while pregnant. She appears disheveled and bloodstained, carrying a baby or appearing pregnant, manifesting near rivers, crossroads, or the site of her death. Ubume encounters passersby and asks them to hold her baby, which becomes progressively heavier until unbearable, or she is seen buying candy for her child with leaves that turn to money. Her maternal instinct persists beyond death, compelling her to seek care for her child. In some versions, the baby is real and still alive, buried with her; in others, it's a spirit. Ubume is not purely malevolent - she acts from love and desperation. Showing compassion can lay her spirit to rest. She represents the tragedy of maternal death and the unbreakable bond between mother and child. Similar spirits exist throughout Asia, including the Pontianak of Southeast Asia."
+    },
+    "etymology": {
+      "origin": "Japanese: 産 (umu) 'to give birth' + 女 (me) 'woman'",
+      "meaning": "Birthing woman, woman who died giving birth",
+      "first_use": "Heian period (794-1185), documented in Edo period texts"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Ghost",
+      "subtype": "Maternal spirit",
+      "variant": "Japanese Yokai"
+    },
+    "related_phenomena": [
+      {
+        "id": "pontianak",
+        "name": "Pontianak",
+        "relationship": "similar",
+        "description": "Southeast Asian vampire ghost of woman who died in childbirth"
+      },
+      {
+        "id": "banshee",
+        "name": "Banshee",
+        "relationship": "related",
+        "description": "Irish female death spirit with different manifestation"
+      },
+      {
+        "id": "white-lady",
+        "name": "White Lady",
+        "relationship": "similar",
+        "description": "European female ghost, sometimes associated with maternal death"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": {
+        "clothing": "Disheveled, often bloodstained kimono or burial clothes",
+        "hair": "Long, unkempt, matted with blood",
+        "condition": "Pale, exhausted appearance",
+        "pregnancy_state": "Carrying baby or appearing pregnant",
+        "bloodstains": "Blood on clothes from childbirth"
+      },
+      "features": [
+        {
+          "feature": "Carrying baby",
+          "description": "Holds infant in arms, baby may be real spirit or manifestation",
+          "frequency": "always"
+        },
+        {
+          "feature": "Bloodstained appearance",
+          "description": "Clothes stained with blood from childbirth",
+          "frequency": "common"
+        },
+        {
+          "feature": "Disheveled state",
+          "description": "Unkempt hair and disordered clothing from death trauma",
+          "frequency": "always"
+        },
+        {
+          "feature": "Pale complexion",
+          "description": "Deathly pale skin, ghostly appearance",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Appears as recently deceased woman, showing signs of childbirth trauma. Physical form demonstrates her death circumstances and maternal focus."
+    },
+    "abilities": [
+      {
+        "ability": "Weight manipulation",
+        "description": "Baby becomes increasingly heavy when held by victim",
+        "frequency": "common",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Illusion",
+        "description": "Can make leaves appear as money temporarily",
+        "frequency": "occasional",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Manifestation",
+        "description": "Appears at specific locations (rivers, crossroads)",
+        "frequency": "always",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Persistence",
+        "description": "Continues maternal behaviors despite death",
+        "frequency": "always",
+        "evidence_level": "folkloric"
+      }
+    ],
+    "behavior": {
+      "activity_period": "night, dusk",
+      "disposition": "non-malevolent but disturbing",
+      "habitat_preference": [
+        "rivers and riverbanks",
+        "crossroads",
+        "site of death",
+        "graveyards"
+      ],
+      "patterns": [
+        "Asks passersby to hold baby",
+        "Buys candy with leaves that turn to money",
+        "Appears near water",
+        "Seeks care for child",
+        "Can be laid to rest through compassion",
+        "Baby grows heavier until unbearable or person reaches temple/safe place"
+      ],
+      "motivation": "Maternal love and desperation to protect/care for child transcending death"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Throughout Japan, particularly near rivers and areas associated with maternal death",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Nationwide",
+        "Particularly near rivers",
+        "Crossroads",
+        "Sites of maternal mortality"
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Japanese ghost folklore, maternal mortality fears, yokai tradition",
+      "earliest_accounts": "Heian period (794-1185) references, formalized in Edo period",
+      "folklore_connections": "Part of wider maternal death spirit traditions across Asia"
+    },
+    "timeline": [
+      {
+        "date": "794-1185",
+        "event": "Heian period",
+        "significance": "Early references to ubume spirits",
+        "source": "Heian period literature"
+      },
+      {
+        "date": "1603-1867",
+        "event": "Edo period documentation",
+        "significance": "Ubume stories recorded in yokai compilations and ghost story collections",
+        "source": "Edo period texts"
+      },
+      {
+        "date": "Modern era",
+        "event": "Popular culture revival",
+        "significance": "Ubume featured in anime, manga, films, and games",
+        "source": "Contemporary media"
+      }
+    ],
+    "modern_era": "Ubume continues in Japanese popular culture, featured in yokai media, horror stories, and as symbol of maternal devotion and tragedy. Appears in anime, manga, and video games exploring Japanese folklore."
+  },
+
+  "common_encounters": [
+    {
+      "type": "Baby-holding request",
+      "description": "Ubume appears and asks passerby to hold her baby. The baby becomes increasingly heavy, sometimes crushing the holder or forcing them to carry it to a temple where the spirit can be laid to rest.",
+      "outcome": "Varies - compassionate response may lay spirit to rest; cruelty or dropping baby may result in curse"
+    },
+    {
+      "type": "Candy purchase",
+      "description": "Woman (Ubume) comes to shop to buy candy for child, paying with money that later turns to leaves. Shopkeeper may follow her to gravesite and discover baby buried with her, still alive.",
+      "outcome": "Discovery and rescue of living baby, spirit laid to rest"
+    },
+    {
+      "type": "River appearance",
+      "description": "Ubume appears near river or water, sometimes washing bloodstained clothes, carrying baby",
+      "outcome": "Encounter varies based on witness's response"
+    }
+  ],
+
+  "variations": [
+    {
+      "type": "Protective Ubume",
+      "description": "Spirit protects living child left behind, ensuring its safety",
+      "characteristics": "Benevolent, focused on child's welfare"
+    },
+    {
+      "type": "Vengeful Ubume",
+      "description": "Angry spirit seeking revenge for death or mistreatment",
+      "characteristics": "More aggressive, potentially harmful"
+    },
+    {
+      "type": "Trapped Ubume",
+      "description": "Cannot move on until child is cared for or properly buried",
+      "characteristics": "Desperate, pleading, persistent"
+    }
+  ],
+
+  "symbolism": {
+    "primary_meanings": [
+      "Tragedy of maternal death",
+      "Maternal love transcending death",
+      "Unfinished bonds between mother and child",
+      "Importance of compassion",
+      "Historical dangers of childbirth",
+      "Protective maternal instinct"
+    ],
+    "spiritual_significance": "Ubume represents the power of maternal love to persist beyond death and the tragedy of mothers dying before caring for children. Emphasizes importance of compassion toward suffering spirits and proper burial rites."
+  },
+
+  "cultural_context": {
+    "historical_background": "In pre-modern Japan, maternal mortality was tragically common. Ubume stories reflect these real fears and losses. The spirit's persistence represents society's recognition of maternal sacrifice and the tragedy of deaths in childbirth.",
+    "social_commentary": "Ubume legends served as reminders of the importance of proper burial rites, compassion toward the dead, and care for orphaned children."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Ghost story (kaidan) traditions",
+        "Regional ubume legends",
+        "Burial rite traditions",
+        "Compassion toward spirits customs"
+      ],
+      "beliefs": "Showing compassion to ubume can lay her spirit to rest. Proper burial rites prevent restless spirits. Maternal bonds transcend death."
+    },
+    "popular_culture": {
+      "literature": [
+        "Edo period ghost story collections",
+        "Modern horror fiction",
+        "Yokai encyclopedias"
+      ],
+      "film_tv": [
+        "Japanese horror films featuring maternal ghosts",
+        "Anime with yokai themes",
+        "GeGeGe no Kitaro series",
+        "Various supernatural dramas"
+      ],
+      "games": [
+        "Yokai-themed video games",
+        "Japanese horror games",
+        "RPGs featuring Japanese folklore"
+      ]
+    }
+  },
+
+  "cultural_sensitivity": {
+    "note": "Ubume represents real historical tragedy of maternal mortality. Stories reflect genuine fears and losses. Should be approached with respect for the serious subject matter.",
+    "guidelines": [
+      "Recognize tragic historical context of maternal mortality",
+      "Understand cultural significance of maternal sacrifice",
+      "Respect the serious nature of childbirth death themes",
+      "Distinguish between folkloric tradition and modern horror adaptations"
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "davisson-2013",
+      "type": "book",
+      "title": "Yurei: The Japanese Ghost",
+      "authors": ["Zack Davisson"],
+      "publication": "Chin Music Press",
+      "date": "2013"
+    },
+    {
+      "id": "reider-2001",
+      "type": "article",
+      "title": "The Emergence of 'Kaidan-shū': The Collection of Tales of the Strange and Mysterious in the Edo Period",
+      "authors": ["Noriko T. Reider"],
+      "publication": "Asian Folklore Studies",
+      "date": "2001"
+    }
+  ]
+}
