@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ubume",
     "maintainers": [
       {
@@ -16,72 +16,159 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ubume",
     "name": "Ubume",
-    "aliases": [],
-    "category": "UNDEAD",
-    "subcategory": "| Description | Characteristics |",
+    "aliases": [
+      { "name": "産女", "language": "Japanese", "meaning": "'birthing woman' — main written form" },
+      { "name": "姑獲鳥", "language": "Japanese", "meaning": "'kokakuchō' — the Chinese-derived name; literally 'wench-snatching bird'" },
+      { "name": "Ugume", "language": "Japanese", "region": "Saga and Kumamoto" },
+      { "name": "Obo", "language": "Japanese", "region": "Fukushima" },
+      { "name": "Unme / Uume", "language": "Japanese", "region": "Iki Island, Nagasaki Prefecture" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yūrei / yōkai of maternal death",
     "tags": [
-      "folklore",
-      "mythology"
+      "yokai",
+      "yurei",
+      "ghost",
+      "japan",
+      "childbirth",
+      "maternal-spirit",
+      "asia"
     ],
     "status": "documented",
     "description": {
-      "summary": "Ubume is a tragic yokai - the ghost of a woman who died during childbirth or while pregnant.",
-      "full": "Ubume is a tragic yokai - the ghost of a woman who died during childbirth or while pregnant. She appears disheveled and bloodstained, carrying a baby or appearing pregnant, manifesting near rivers, crossroads, or the site of her death. Ubume encounters passersby and asks them to hold her baby, which becomes progressively heavier until unbearable, or she is seen buying candy for her child with leaves that turn to money. Her maternal instinct persists beyond death, compelling her to seek care for her child. In some versions, the baby is real and still alive, buried with her; in others, it's a spirit. Ubume is not purely malevolent - she acts from love and desperation. Showing compassion can lay her spirit to rest. She represents the tragedy of maternal death and the unbreakable bond between mother and child. Similar spirits exist throughout Asia, including the Pontianak of Southeast Asia."
+      "summary": "A Japanese yōkai of a woman who died in or shortly after childbirth, who appears at night carrying a baby and tries to pass it to a passerby; the bundle then turns to leaves, stones, or grows unbearably heavy.",
+      "full": "Ubume (産女, 'birthing woman') is a yōkai of Japanese folklore, classified among the yūrei (ghosts) of women who died during pregnancy or in childbirth. She appears most often at night, beside roads, bridges, or rivers, in the form of a pale, blood-stained woman wearing a red waist cloth and cradling an infant. She approaches travelers and asks them to hold her baby; once the bundle is taken it grows progressively heavier, or transforms on examination into a bundle of leaves, a stone, or a buddha-statue. In other accounts she buys candy at a shop with leaf-money for a child whom locals later find buried with a real living infant in his mother's grave. The Ubume is rarely portrayed as purely malevolent — she is moved by maternal grief and the unfulfilled obligation to her child — and compassion shown to her can lay her spirit to rest. The earliest written account is in the 12th-century Konjaku Monogatarishū, where the warrior Urabe no Suetake encounters an ubume crossing a river. The yōkai's iconography is also strongly shaped by the Chinese-derived bird-spirit Kokakuchō (姑獲鳥), introduced to Japan via texts such as the Wakan Sansai Zue (1712)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name 'ubume' is written 産女 ('birthing woman'). It is also written with the Chinese-derived 姑獲鳥 ('kokakuchō'), originally a Chinese bird-spirit absorbed into the Japanese ubume tradition during the medieval period.",
+      "meaning": "'Birthing woman'; the alternative writing 姑獲鳥 carries the sense of a bird-form spirit that snatches children",
+      "first_use": "Earliest extant Japanese attestation: Konjaku Monogatarishū (early 12th century)"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "UNDEAD",
-      "type": "| Description | Characteristics |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Yōkai / Yūrei",
+      "subtype": "Maternal-death ghost",
+      "variant": "Japanese (with Chinese kokakuchō overlay)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kokakucho", "name": "Kokakuchō (姑獲鳥)", "relationship": "related", "description": "Chinese-derived bird-form spirit that snatches children; merged with the ubume tradition in Edo-period Japan" },
+      { "id": "pontianak", "name": "Pontianak", "relationship": "similar", "description": "Southeast Asian (Malay/Indonesian) ghost of a woman who died in childbirth" },
+      { "id": "kuntilanak", "name": "Kuntilanak", "relationship": "similar", "description": "Indonesian counterpart of the pontianak" },
+      { "id": "la-llorona", "name": "La Llorona", "relationship": "similar", "description": "Latin American weeping mother spirit, sharing themes of maternal death and lost children" },
+      { "id": "yurei", "name": "Yūrei (general)", "relationship": "superset", "description": "Broader category of Japanese ghosts to which ubume belongs" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["pale skin", "blood-stained red waist cloth", "long disheveled black hair"],
+      "features": [
+        { "feature": "Bloodied lower body", "description": "Often depicted naked from the waist up or wearing a blood-soaked red waist cloth, marking the manner of her death", "frequency": "common" },
+        { "feature": "Cradled infant", "description": "Carries a baby — sometimes a real living infant, sometimes an illusory bundle that becomes leaves or stones", "frequency": "always" },
+        { "feature": "Bird-form variant (Kokakuchō)", "description": "Through Chinese influence, occasionally depicted with bird-like features or wings; described as a gull-like creature appearing on rainy nights with eerie flames", "frequency": "occasional" },
+        { "feature": "Pale eerie light (Iki Island)", "description": "On Iki, ubume appear as a swaying blue light rather than as a clearly humanoid figure", "frequency": "occasional" }
+      ],
+      "morphology": "Anthropomorphic woman of normal size, frequently with disheveled hair and bloodied lower body; some regional and Chinese-derived variants are bird-like or appear as glowing apparitions."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Bundle transfer", "description": "Hands a bundle (her 'baby') to a passerby; the bundle either grows progressively heavier or transforms into leaves, stones, or a stone buddha", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Leaf-money", "description": "In the candy-buying variant, pays for sweets with money that later turns to leaves", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Apparition near death-site", "description": "Manifests near rivers, crossroads, or the site where she died, especially at night", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Capacity for repose", "description": "Compassionate response (taking and caring for the child, performing Buddhist rites) can lay her spirit to rest", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "rural roads at night",
+        "river crossings",
+        "bridges",
+        "cemeteries",
+        "the site of the woman's death",
+        "candy and sweet shops (in the candy-variant tales)"
+      ],
+      "diet": "Folkloric: not depicted as feeding; her actions are driven by maternal grief and obligation rather than hunger.",
+      "patterns": [
+        "Approaches lone travelers at night and asks them to hold her child",
+        "Visits a shop nightly to buy candy with leaf-money",
+        "Returns to the place of her death until rites are performed for her and her child",
+        "Resolved by compassion, Buddhist memorial services, or proper burial of mother and infant together"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Found across Japan with regional variants and overlaps with Chinese-derived bird-spirit traditions.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Honshu",
+        "Kyushu (Saga, Kumamoto, Nagasaki)",
+        "Tōhoku (Fukushima)",
+        "Iki Island"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Iki Island",
+        "location": {
+          "description": "Island in the Tsushima Strait, Nagasaki Prefecture",
+          "country": "Japan",
+          "region": "Nagasaki Prefecture"
+        },
+        "peak_period": "Edo period to modern",
+        "notes": "Local variant 'unme' / 'uume' — appears as a swaying blue light when a young person or pregnant woman dies in difficult childbirth."
+      },
+      {
+        "name": "Saga and Kumamoto",
+        "location": {
+          "description": "Northern Kyushu prefectures",
+          "country": "Japan",
+          "region": "Kyushu"
+        },
+        "peak_period": "Edo period to modern",
+        "notes": "Regional variant called 'ugume'."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 1120",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Konjaku Monogatarishū (early 12th century)"
+      },
+      "peak_activity_periods": [
+        { "period": "Heian period (794–1185)", "description": "Earliest extant ubume tale (Konjaku Monogatarishū)" },
+        { "period": "Edo period (1603–1868)", "description": "Ubume becomes a stock figure of yōkai painting and ghost-story collections; absorbs Chinese kokakuchō imagery" },
+        { "period": "20th–21st century", "description": "Reframed in horror literature, manga, anime, and film (notably Natsuhiko Kyōgoku's Ubume no Natsu, 1994)" }
+      ],
+      "seasonal_patterns": "Often associated with summer ghost-story traditions (kaidan)."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Ubume sit at the intersection of Japanese fears of maternal mortality, Buddhist concern for the salvation of mothers and infants who died in childbirth, and Chinese bird-spirit lore (kokakuchō) absorbed during the medieval and Edo periods.",
+      "earliest_accounts": "The earliest extant tale is in the early-12th-century Konjaku Monogatarishū, in which the warrior Urabe no Suetake meets an ubume at a river crossing while on military duty.",
+      "folklore_connections": "Connected to broader yūrei tradition; absorbed Chinese kokakuchō through encyclopedic works such as the Wakan Sansai Zue (1712); paralleled by the Southeast Asian pontianak / kuntilanak."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1120-01-01", "event": "Earliest extant ubume tale recorded in Konjaku Monogatarishū (Urabe no Suetake encounters the ubume at a river)", "significance": "Foundational textual reference", "source": "Konjaku Monogatarishū (early 12th century)" },
+      { "date": "1712-01-01", "event": "Terajima Ryōan publishes Wakan Sansai Zue, identifying the ubume with the Chinese kokakuchō and giving it a bird-spirit description", "significance": "Major synthesis of Chinese and Japanese strands", "source": "Wakan Sansai Zue (1712)" },
+      { "date": "1776-01-01", "event": "Toriyama Sekien depicts the ubume in his Edo-period yōkai compendium Gazu Hyakki Yagyō", "significance": "Canonical visual rendering", "source": "Toriyama Sekien, Gazu Hyakki Yagyō (1776)" },
+      { "date": "1994-01-01", "event": "Natsuhiko Kyōgoku publishes the novel Ubume no Natsu (The Summer of the Ubume), launching his Kyōgokudō series", "significance": "Major contemporary literary reframing of the figure", "source": "Kyōgoku, N. (1994)" }
+    ],
+    "modern_era": "The ubume remains a recurring figure in Japanese horror literature, film, and games, often invoked to explore themes of maternal grief, social anxiety around pregnancy and miscarriage, and Buddhist cosmology of unsaved infants (mizuko)."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -89,38 +176,180 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "ubume-konjaku-monogatari-urabe-suetake",
+        "name": "Urabe no Suetake meets the ubume",
+        "date": { "value": "1000-01-01", "precision": "approximate" },
+        "location": {
+          "description": "A river crossing in central Japan",
+          "country": "Japan",
+          "region": "Honshu"
+        },
+        "witnesses": { "count": 1, "types": ["Warrior (Urabe no Suetake)"], "credibility_factors": ["Recorded in canonical Heian tale collection"] },
+        "description": "While crossing a river at night on military duty, the warrior Urabe no Suetake encounters a woman who asks him to hold her baby. He accepts and holds the bundle calmly; the apparition cannot frighten him and disappears.",
+        "credibility": { "rating": "low", "factors": ["Canonical folklore narrative, not a verifiable encounter"], "notes": "Earliest extant ubume tale and a touchstone of the tradition." },
+        "sources": ["Konjaku Monogatarishū"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ubume-evidence-konjaku",
+        "type": "literary record",
+        "name": "Konjaku Monogatarishū account",
+        "date": "c. 1120",
+        "description": "Earliest extant Japanese ubume narrative.",
+        "status": "verified",
+        "analysis": "Verified as an early-12th-century textual record of the tradition; not evidence of an objective encounter.",
+        "source": "Konjaku Monogatarishū"
+      },
+      {
+        "id": "ubume-evidence-wakan-sansai-zue",
+        "type": "encyclopedia entry",
+        "name": "Wakan Sansai Zue (1712) entry on the ubume / kokakuchō",
+        "date": "1712",
+        "description": "Edo-period encyclopedic treatment that fuses the ubume with the Chinese kokakuchō.",
+        "status": "verified",
+        "analysis": "Key text in the canonization of Edo-era ubume iconography.",
+        "source": "Terajima Ryōan, Wakan Sansai Zue (1712)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Onryō / unsettled spirit",
+        "description": "Within Japanese folk Buddhism, ubume are real spirits of women whose violent or unsatisfied deaths bind them to the world until proper rites (especially mizuko kuyō for the lost infant) release them.",
+        "proponents": ["Japanese folk Buddhist tradition"],
+        "evidence_cited": ["Persistent regional belief", "Ritual practices for unborn and infant dead"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural processing of maternal mortality",
+        "description": "Ubume folklore encodes pre-modern Japan's high maternal and infant mortality rates and the cultural anxiety around women dying in childbirth.",
+        "proponents": ["Folklorists Komatsu Kazuhiko and others"],
+        "evidence_cited": ["Historical maternal mortality rates", "Concentration of ubume tales near rivers and bridges, where pregnant women's bodies were sometimes buried separately"]
+      },
+      {
+        "name": "Hybrid with Chinese bird-spirit",
+        "description": "Many of the more elaborate ubume features (bird-form, eerie flames, gull-like behavior) are imported from the Chinese kokakuchō tradition rather than indigenous Japanese folklore.",
+        "proponents": ["Kabat, A.; Foster, M.D."],
+        "evidence_cited": ["Wakan Sansai Zue's explicit identification of ubume with the kokakuchō"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Heian-era kaidan (ghost-story) tradition",
+        "Edo-period yōkai painting and woodblock culture",
+        "Folk Buddhist mizuko kuyō (memorial rites for unborn or dead infants)"
+      ],
+      "stories": [
+        "Urabe no Suetake's encounter at the river (Konjaku Monogatarishū)",
+        "The candy-buying ghost (kosodate yūrei): a dead mother buys candy nightly for her infant buried alive in her grave",
+        "Toriyama Sekien's depiction of the ubume in Gazu Hyakki Yagyō"
+      ],
+      "beliefs": "Pregnant women who died in or before childbirth required special rites — including, traditionally, the removal and burial of the fetus with the mother — to prevent the spirit from becoming an ubume."
+    },
+    "indigenous": {
+      "cultures": ["Japanese (Heian through modern)"],
+      "significance": "Ubume traditions express Japanese cosmological concern for the mother–child bond, salvation of the dead, and the dangers of liminal spaces (rivers, bridges, crossroads).",
+      "sensitivity_note": "Modern English-language treatments sometimes reduce the ubume to a horror trope; the figure has long been understood as tragic and worthy of compassion within Japanese tradition."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Toriyama Sekien (1776) — Gazu Hyakki Yagyō",
+        "Lafcadio Hearn (1899) — In Ghostly Japan (related kosodate-yūrei tales)",
+        "Natsuhiko Kyōgoku (1994) — Ubume no Natsu (The Summer of the Ubume)"
+      ],
+      "film_tv": [
+        "Ubume no Natsu / The Summer of the Ubume (2005, dir. Akio Jissoji)",
+        "Numerous appearances in Japanese horror anthology series and yōkai documentaries"
+      ],
+      "games": [
+        "GeGeGe no Kitarō franchise (recurring yōkai)",
+        "Various Japanese yōkai-themed video games and tabletop games"
+      ],
+      "music": [],
+      "other": [
+        "Mizuko kuyō rituals at Buddhist temples for unborn and infant dead, sometimes invoking ubume imagery"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies (Nichibunken)", "contribution": "Major modern scholar of Japanese yōkai including the ubume", "period": "1980s–present" },
+      { "name": "Michael Dylan Foster", "affiliation": "University of California, Davis", "contribution": "English-language academic studies of yōkai including ubume", "period": "2000s–present" },
+      { "name": "Adam Kabat", "affiliation": "Musashi University, Tokyo", "contribution": "Edo-period yōkai studies including ubume iconography", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp/en/", "focus": "Japanese folklore and yōkai studies" }
+    ],
+    "ongoing_studies": "Active study within Japanese folklore studies, religious studies (mizuko kuyō), and gender history of pre-modern Japan."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wiki-ubume",
+      "type": "website",
+      "title": "Ubume",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ubume",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "yokai-com-ubume",
+      "type": "website",
+      "title": "Ubume",
+      "publication": "Yokai.com (Matthew Meyer)",
+      "url": "https://yokai.com/ubume/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "konjaku-monogatari",
+      "type": "book",
+      "title": "Konjaku Monogatarishū (今昔物語集)",
+      "publication": "Heian period collection",
+      "date": "c. 1120"
+    },
+    {
+      "id": "wakan-sansai-zue",
+      "type": "book",
+      "title": "Wakan Sansai Zue (和漢三才図会)",
+      "authors": ["Terajima Ryōan"],
+      "date": "1712"
+    },
+    {
+      "id": "sekien-1776",
+      "type": "book",
+      "title": "Gazu Hyakki Yagyō (画図百鬼夜行)",
+      "authors": ["Toriyama Sekien"],
+      "date": "1776"
+    },
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yōkai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    }
+  ]
 }
